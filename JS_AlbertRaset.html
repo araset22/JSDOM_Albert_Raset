@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>JS Albert Raset</title>
     <meta charset="UTF-8">
+    <title>JS Albert Raset</title>
 </head>
 <body>
-    <h1 id="titol">Aquest és el títol</h1>
-    <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p id="url"></p>
 
     <script type="text/javascript">
-        let nodeTitol = document.getElementById('titol')
-        nodeTitol.innerHTML = 'Aquest és el títol del exercici'
-        let nodeText = document.getElementById('text')
-        nodeText.innerHTML = 'Lorem ipsum dolor sit amet'.toUpperCase('text')
+        document.getElementById("url").innerHTML = "L'URL d'aquesta pàgina és:<br>" + window.location.href
     </script>
 </body>
 </html>
