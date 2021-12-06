@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <script src="JSDOM_AlbertRaset.js"></script>
+    <h1 id="titol">Aquest és el títol</h1>
+    <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <script type="text/javascript">
+        let nodeTitol = document.getElementById('titol')
+        nodeTitol.innerHTML = 'Aquest és el títol del exercici'
+        let nodeText = document.getElementById('text')
+        nodeText.innerHTML = 'Lorem ipsum dolor sit amet'.toUpperCase('text')
+    </script>
 </body>
 </html>
